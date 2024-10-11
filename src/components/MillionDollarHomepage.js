@@ -1,5 +1,9 @@
+"use client";
+
 import React, { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import { ZoomIn, ZoomOut, Upload, X } from 'lucide-react';
+
+import "../index.css";
 
 const GRID_SIZE = 1000;
 const PIXEL_SIZE = 5;
